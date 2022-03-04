@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Formulär</title>
+</head>
+<body>
+    <form class="grid" action="Thankyou.html" method="GET">
+        <div class="item1">
+            <label for="namn">Namn</label>
+            <input id="namn" type="text" name="namn">
+        </div>
+        <div class="item2">
+            <label for="eftnamn">Efternamn</label>
+            <input id="eftnamn" type="text" name="eftnamn">
+        </div>
+        <div class="item3">
+            <label for="klass">Klass</label>
+            <input id="klass" type="text" name="klass">
+        </div>
+
+        <p>Vad gillar du för mat?</p>
+        <label for="kyckling">Kyckling</label>
+        <input id="kyckling" type="radio" name="Favomat" value="Kyckling">
+        <label for="katt">Katt</label>
+        <input id="katt" type="radio" name="Favomat" value="Katt">
+        <label for="annat">Annat</label>
+        <input id="annat" type="radio" name="Favomat" value="Annat">
+
+        <p>Om du svarade ja på förra frågan, vad</p>
+        <label for="jag">Jag</label>
+        <input id="jag" type="checkbox" name="jag" value="Jag">
+        <label for="vet">Vet</label>
+        <input id="vet" type="checkbox" name="vet" value="Vet">
+        <label for="inte">Inte</label>
+        <input id="inte" type="checkbox" name="inte" value="Inte">
+
+        <fieldset class="field">
+            <legend>AUAUAUAUAu</legend>
+            <label for="nummer">Nummer</label>
+            <select name="nummer" id="nummer">
+                <option value="1">1 </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="0">0</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Ge sig" class="item4">
+    </form>
+</body>
+</html>
